@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kid's fun idea generator</title>
+    <title>Kids fun idea generator</title>
     <link rel="stylesheet" href="style.css">
     <style>
         h1 {
             text-transform: lowercase;
+        }
+        h1::first-letter {
+            text-transform: uppercase;
         }
         #idea-box {
             color: red;
@@ -16,7 +19,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>kid's fun idea generator</h1>
+        <h1>Kids fun idea generator</h1>
         <p id="idea-box">Click the button to get an idea!</p>
         <button onclick="getNewIdea()">Get a New Idea</button>
     </div>
